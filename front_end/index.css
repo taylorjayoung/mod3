@@ -6,11 +6,82 @@
   line-height: 21px;
   height: 62px;
   max-width: 70px;
-}
-body {
-  background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 67%,#7db9e8 100%);
+  margin-top: -70px;
 }
 
+.list-item:hover{
+box-shadow: 5px 5px 5px 10px rgba(68, 68, 68, 0.6);
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#page-title {
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 280px;
+  font-family: 'Chakra Petch', sans-serif;
+  color: white;
+
+
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  background: white;
+}
+
+.main-header{
+  margin-top: 0;
+  min-height: 200px;
+  width: 100%;
+  background-image: url("https://cdn-images-1.medium.com/max/1892/1*GVTJpn1kD0GZdR8n5tTVMg.jpeg")  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px 300px ;
+  box-shadow: inset 30px 20px 30px 40px white;
+  width: 100%;
+
+
+
+}
+
+.chart {
+  min-height: 150px;
+}
+
+.chart:hover {
+  box-shadow: inset 3px 2px 50px 0px
+black;
+
+}
+
+.littleIcon {
+  position: relative;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.title-info {
+  font-size: 25px;
+    color: #2c2c2c;
+    background-color: white;
+    letter-spacing: .05em;
+    text-shadow:
+      2px 2px 0px #d5d5d5,
+      5px 5px 0px rgba(0, 0, 0, 0.2);
+  }
 
 .container {
   display: flex;
@@ -23,8 +94,12 @@ body {
 
 .symbols {
   font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
 
 }
+
+
 
 /* font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Oswald', sans-serif;
@@ -43,19 +118,16 @@ html, body {
   height: 100%;
 }
 
-#myChart {
-  font-size: 30px;
-  line-height: 21px;
-  height: 300px;
-  max-width: 350px;
-  background-color:  white;
+
+
+.title-info {
+  text-align: center;
 }
-
-
+/*
 .parallax-container {
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* .parallax-container {
   position: relative;

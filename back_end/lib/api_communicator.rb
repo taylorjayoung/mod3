@@ -97,7 +97,7 @@ def get_stock_data_from_api(symbol, id)
 
 end
 
-def  assign_img_url_to_stock(symbol, id)
+def  assign_Int_url_to_stock(symbol, id)
   symbol = reformat_symbol(symbol)
   IMAGES.each do |image_object|
     if image_object[:symbol] === symbol
